@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where in the world? - Challenge made by Juampi.dev</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Where in the world?</h1>
+        <nav>
+            <button id="darkModeToggle">Dark Mode</button>
+        </nav>
+    </header>
+
+    <section class="controls">
+        <form>
+            <input type="text" name="countrySearch" id="searchBar" placeholder="Search for a country...">
+        </form>
+        <div>
+            <label for="regionFilter">Filter by Region</label>
+            <select id="regionFilter">
+                <option value="all">All</option>
+                <option value="africa">Africa</option>
+                <option value="americas">Americas</option>
+                <option value="asia">Asia</option>
+                <option value="europe">Europe</option>
+                <option value="oceania">Oceania</option>
+            </select>
+        </div>
+    </section>
+
+    <main id="content">
+        <section class="cards">
+        </section>
+    </main>
+
+    <footer>
+        Footer Goes Here!
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
